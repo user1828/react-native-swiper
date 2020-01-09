@@ -7,7 +7,6 @@ import PropTypes from 'prop-types'
 import {
   Text,
   View,
-  ViewPropTypes,
   ScrollView,
   Dimensions,
   TouchableOpacity,
@@ -16,7 +15,6 @@ import {
 } from 'react-native'
 
 /**
- * Default styles
  * @type {StyleSheetPropType}
  */
 const styles = {
@@ -94,7 +92,6 @@ const styles = {
   }
 }
 
-// missing `module.exports = exports['default'];` with babel6
 // export default React.createClass({
 export default class extends Component {
   /**
@@ -150,7 +147,6 @@ export default class extends Component {
   }
 
   /**
-   * Default props
    * @return {object} props
    * @see http://facebook.github.io/react-native/docs/scrollview.html
    */
